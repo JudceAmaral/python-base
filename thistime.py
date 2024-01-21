@@ -9,6 +9,9 @@ Usage: get LANG variable previously configured
 Execution: python3 thistime.py
 
 """
+
+#Teste funcionamento nova chave ssh github
+
 #Metadados
 __version__ = "0.0.1"
 __author__ = "Judce Amaral"
