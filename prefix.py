@@ -23,11 +23,16 @@ $ prefix.py mul 10 5
 .
 etc
 
+Nova versão:
+Os resultados das operações serão salvos em `prefix.log`
+
 """
 
 __version__ = "0.1.0"
 
+import os
 import sys
+from datetime import datetime
 arguments = sys.argv[1:]
 
 operacoes = {
@@ -81,5 +86,13 @@ elif op == "mul":
     result = n1 * n2
 elif op == "div":
     result = n1 / n2
+    
+path = os.curdir
+filepath = os.path.join(path, "prefix.log")
+timestamp = datetime.now().isoformat()
+user = os.getenv('USER', 'Anonymous')
+
+with open(filepath, "a") as file_:
+    file_.write(f"{op},{n1},{n2} = {result}  | by: {user} at {timestamp}\n")
     
 print(f"O resultado é {result}")
