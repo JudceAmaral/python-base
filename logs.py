@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
 
+import os
 import logging
 
+log_level = os.getenv("LOG_LEVEL", "WARNING").upper() 
+
 #nossa instancia 
-log = logging.Logger("judce", logging.DEBUG)
+log = logging.Logger("judce", log_level)
 
 #level
 
 #usaremos um ch - console handler
 ch = logging.StreamHandler() # como não especificamos, será o stde - standard error
-ch.setLevel(logging.DEBUG)
+ch.setLevel(log_level)
 
 #Formatação
 #define a forma que será apresentada a nossa mensagem, ou seja, os parametros que a
