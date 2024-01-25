@@ -3,6 +3,10 @@
 import os
 import logging
 
+# BOILERPLATE -> Código repetitivo toda esta configuração de logging
+# TODO: usar função
+# TODO: usa lib (loguru)
+
 log_level = os.getenv("LOG_LEVEL", "WARNING").upper() 
 
 #nossa instancia 
@@ -12,6 +16,10 @@ log = logging.Logger("judce", log_level)
 
 #usaremos um ch - console handler
 ch = logging.StreamHandler() # como não especificamos, será o stde - standard error
+                             # console/terminal/stderr
+                             
+
+                             
 ch.setLevel(log_level)
 
 #Formatação
