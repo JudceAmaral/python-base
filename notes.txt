@@ -1,0 +1,5 @@
+Minha Primeira Nota	gGeral	Primeira de muitas
+Minha Segunda Nota	Tech	Python muitoooo bom
+Minha Terceira Nota	tech	C++ também é muitoo bom.
+Nova_Add	Controle	Testando nova add
+Second_New_Add	geral	testando segunda implementação

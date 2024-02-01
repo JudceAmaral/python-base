@@ -1,0 +1,4 @@
+Judce,1,7
+Ana,3,7
+Sofia,2,3
+Lia,4,10

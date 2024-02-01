@@ -1,0 +1,2 @@
+2024-01-31 17:24:41,779 __main__ ERROR l:144 f:prefix.py: Falha por: [Errno 13] Permission denied: '/prefix.log'
+2024-01-31 17:26:24,042 __main__ ERROR l:143 f:prefix.py: Falha por: [Errno 13] Permission denied: '/prefix.log'

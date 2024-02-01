@@ -1,0 +1,7 @@
+Title:My life
+Tags:Tech, Common
+Date:2024-01-26
+Published:1
+---
+This is a short resume about my dev story
+I sincerally hope yall enjoy this journey!
